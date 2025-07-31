@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    padding-bottom: 20vh;
+    background-color: rgb(25, 25, 25);
+}
+h1 {
+    color: rgb(235, 235, 235);
+}
+
+/* Contact Links */
+.contacts {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    gap: 1vw;
+    padding: .5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.contact .contactsButton {
+    display: none;
+}
+
+.contacts a:link, .contacts a:visited {
+    background-color: rgb(235, 235, 235);
+    text-transform: capitalize;
+    border-radius: 10px;
+    padding: .5vw;
+    color: black;
+    text-decoration: none;
+}
+.contacts a:hover {
+    background-color: black;
+    color: rgb(235, 235, 235);
+}
+
+/* Page Navigation */
+.pages {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+/* Style Button */
+.styleButton {
+    position: fixed;
+    top: .5vw;
+    left: 1.5vw;
+
+    background-color: rgb(235, 235, 235);
+    padding: .5vw;
+    font-weight: bold;
+    font-size: 1vw;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.landing {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 100vh;
+}
+.landing h1 {
+    font-size: 7vw;
+    text-transform: capitalize;
+    text-align: center;
+}
+.landing a:link, .landing a:visited {
+    padding: .5vw;
+    font-size: 3vw;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+.landing a:hover {
+    background-color: rgb(235, 235, 235);
+    color: black;
+    border-radius: 10px;
+}
+.pages {
+    height: 70vh;
+    flex-shrink: 0;
+}
+.title {
+    text-align: center;
+    height: 50vh;
+    flex-grow: 1;
+}
+
+/* Content */
+.contentSelect {
+    display: none;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+.contentItem {
+    flex-grow: 1;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 1vw;
+    max-width: 90vw;
+}
+
+.contentItem {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    border-radius: 10px;
+    text-align: left;
+    padding: 1vw;
+    gap: 1vw;
+}
+.contentItem p {
+    font-size: 1.4vw;
+}
+.image {
+    border-radius: 10px;
+    min-width: 20vw;
+    min-height: auto;
+}
+.info {
+    text-align: left;
+}
+
+/* Index */
+.aboutImage{
+    border-radius: 10px;
+    min-width: 35vw;
+    min-height: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.books .info p {
+    font-weight: bold;
+}
+.books .info .review {
+    font-weight: normal;
+}
+
+/* Portfolio */
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 5vw;
+}
+.projects .contentItem {
+    max-width: 40vw;
+    align-items: center;
+}
+.taskTrackerImage, .golfImage{
+    min-width: 10vw;
+}
+.project2 {
+    flex-direction: column;
+}
+
+/* Qualifications */
+.qualifications {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+}
+.qualifications .contentItem {
+    align-items: flex-start;
+    max-width: 38vw;
+}
+.skillsContent {
+    display: flex;
+    flex-direction: column;
+}
+.technologies, .languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5vw;
+}
+.technologies p, .languages p {
+    font-size: 2vw;
+}
+.info h2 {
+    font-size: 3vw;
+}
+.resume {
+    min-width: 35vw;
+    min-height: 50vh;
+}
+
+/* Service */
+.statement .info {
+    text-align: left;
+}
